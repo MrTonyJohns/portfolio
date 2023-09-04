@@ -1,11 +1,9 @@
-$(document).ready(function () {
-  $("a").click(function (event) {
-    alert("The link will no longer take you to jquery.com");
-    event.preventDefault();
-  });
+$(function () {
+  $("#accordion").accordion();
 });
 
-tsParticles.load("tsparticles", {
+/* Particles settings */
+/* tsParticles.load("tsparticles", {
   fps_limit: 60,
   interactivity: {
     detect_on: "canvas",
@@ -81,3 +79,4 @@ tsParticles.load("tsparticles", {
   },
   retina_detect: true,
 });
+ */

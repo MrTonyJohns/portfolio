@@ -1,83 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tony Johnston</title>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="image/ico" />
+    <title>Home</title>
   </head>
-  <body id="wrapper">
-    <div>
+  <body>
+    <div class="container">
       <header>
         <h1>Tony Johnston</h1>
       </header>
       <nav>
-        <ul>
+        <ul class="site-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="work.html">Work</a></li>
-          <li><a href="collegeprojects">College Projects</a></li>
+          <li><a href="collegeprojects.html">College Projects</a></li>
+          <li><a href="#">Personal Projects</a></li>
         </ul>
       </nav>
-      <div id="tsparticles"></div>
-      <br />
       <main>
-        <div>
-          <h2>Welcome</h2>
-        </div>
-        <br />
-        <div>
-          <p>
-            Hello, I'm Tony. I'm a Kansas City local with a passion for web
-            design and development. I appreciate you stopping by, and I hope
-            you'll take a look at my <a href="work.html">work</a> while you're
-            here.
-          </p>
-          <br />
-          <p>
-            What software and languages do I know? I'm glad you asked. You'll
-            find those listed below.
-          </p>
-          <br />
-          <h4>Software:</h4>
-          <ul>
-            <li>Adobe XD</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
-            <li>Microsoft Visual Studio Code</li>
-          </ul>
-          <h4>Languages:</h4>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-          </ul>
-          <br />
-          <p>
-            What are my interests outside of web design and development? I like
-            how inquisitive you are. You'll find some of my interests below.
-          </p>
-          <ul>
-            <li>Traveling &#9992;</li>
-            <li>Video games &#127918;</li>
-            <li>Coffee &#9749;</li>
-            <li>Comic books &#128495;</li>
-            <li>Robotics &#129302;</li>
-          </ul>
-        </div>
+        <div id="tsparticles"></div>
+        <!-- https://github.com/matteobruni/tsparticles -->
+        <h2>Welcome</h2>
+        <p>
+          Hello, I'm Tony. I'm a Kansas City local with a passion for web design
+          and development. I appreciate you stopping by, and I hope you'll take
+          a look at my <a href="work.html">work</a> while you're here.
+        </p>
+        <p>
+          What software and languages do I know? I'm glad you asked. You'll find
+          those listed below.
+        </p>
+        <h4>Software:</h4>
+        <ul>
+          <li>Adobe XD</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Microsoft Visual Studio Code</li>
+        </ul>
+        <h4>Languages:</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+        <p>
+          What are my interests outside of web design and development? I like
+          how inquisitive you are. You'll find some of my interests below.
+        </p>
+        <ul>
+          <li>Traveling &#9992;</li>
+          <li>Video games &#127918;</li>
+          <li>Coffee &#9749;</li>
+          <li>Comic books &#128495;</li>
+          <li>Robotics &#129302;</li>
+        </ul>
       </main>
       <footer>
-        &copy; 2021 Tony Johnston<br />
+        &copy; 2023 Tony John
         <a href="mailto:ajohn160@stumail.jccc.edu">Email me</a>
       </footer>
+      <!-- first include tsParticles engine -->
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
+      <!-- then include any tsParticles plugin needed -->
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+      <!-- then include jquery wrapper -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+      <script type="" src="js/jquery.js"></script>
+      <script type="text/JavaScript" src="js/script.js"></script>
     </div>
-    <a href="http://jquery.com/">jQuery</a>
-    <!-- first include tsParticles engine -->
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
-    <!-- then include any tsParticles plugin needed -->
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
-    <!-- then include jquery wrapper -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
-    <script type="" src="js/jquery.js"></script>
-    <script type="text/JavaScript" src="js/script.js"></script>
   </body>
 </html>
