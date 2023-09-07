@@ -61,7 +61,8 @@ header {
 }
 
 .site-nav a:hover {
-  background-color: #f5f5dc;
+  /* background-color: #f5f5dc; */
+  background-color: darkgrey;
   border-radius: 0.25em;
 }
 
