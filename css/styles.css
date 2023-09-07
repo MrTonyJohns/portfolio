@@ -10,7 +10,8 @@
 }
 
 body {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: grey;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -103,7 +104,7 @@ h4 {
 }
 
 /* ---- tsparticles container ---- */
-/* #tsparticles {
+#tsparticles {
   position: absolute;
   width: 80%;
   height: 80%;
@@ -112,13 +113,13 @@ h4 {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 50% 50%;
-} */
+  z-index: -1;
+}
 
-/* canvas {
+canvas {
   display: block;
-} */
-
-main {
+}
+*/ main {
   font-family: Arial, Helvetica, sans-serif;
   padding: 2px 8px 2px 8px;
 }

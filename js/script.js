@@ -3,7 +3,7 @@ $(function () {
 });
 
 /* Particles settings */
-/* tsParticles.load("tsparticles", {
+tsParticles.load("tsparticles", {
   fps_limit: 60,
   interactivity: {
     detect_on: "canvas",
@@ -79,4 +79,3 @@ $(function () {
   },
   retina_detect: true,
 });
- */
