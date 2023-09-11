@@ -103,23 +103,7 @@ h4 {
   margin: 5px;
 }
 
-/* ---- tsparticles container ---- */
-#tsparticles {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  background-color: #222222;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: 50% 50%;
-  z-index: -1;
-}
-
-canvas {
-  display: block;
-}
-*/ main {
+main {
   font-family: Arial, Helvetica, sans-serif;
   padding: 2px 8px 2px 8px;
 }
@@ -127,10 +111,31 @@ canvas {
 .ui-accordion .ui-accordion-header {
   display: block;
   cursor: pointer;
+  background-color: #fafafa;
+  border: 2px solid #222;
+  border-radius: 0.25em;
   position: relative;
   margin: 2px 0 0 0;
   padding: 0.5em 0.5em 0.5em 0.7em;
   font-size: 100%;
+}
+
+.ui-accordion .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: 0.5em;
+  top: 50%;
+  margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
 }
 
 .ui-widget {

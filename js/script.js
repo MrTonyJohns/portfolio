@@ -3,10 +3,10 @@ $(function () {
 });
 
 /* Particles settings */
-tsParticles.load("tsparticles", {
+/* tsParticles.load("tsparticles", {
   fps_limit: 60,
   interactivity: {
-    detect_on: "canvas",
+    detect_on: "window",
     events: {
       onclick: { enable: true, mode: "push" },
       onhover: {
@@ -22,9 +22,9 @@ tsParticles.load("tsparticles", {
     },
   },
   particles: {
-    color: { value: "#ffffff" },
+    color: { value: "#222222" },
     line_linked: {
-      color: "#ffffff",
+      color: "#222222",
       distance: 150,
       enable: true,
       opacity: 0.4,
@@ -78,4 +78,4 @@ tsParticles.load("tsparticles", {
     url: "",
   },
   retina_detect: true,
-});
+}); */
