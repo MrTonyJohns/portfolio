@@ -1,3 +1,12 @@
+$("document").ready(function () {
+  $("#accordion").mousedown(function () {
+    $("h3").filter(".ui-accordion").css("background-color", "#f5f5dc");
+  });
+  $("#accordion").mouseup(function () {
+    $("h3").filter(".ui-accordion").css("border", "2px solid #222222");
+  });
+});
+
 $(function () {
   $("#accordion").accordion();
 });
