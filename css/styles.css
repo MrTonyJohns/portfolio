@@ -77,6 +77,7 @@ textarea {
   padding: 1em;
   border-bottom: 2px solid #222222;
   color: #222222;
+  resize: none;
 }
 
 #submit {
