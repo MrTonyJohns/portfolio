@@ -285,6 +285,8 @@ p {
 }
 
 .wrap {
+  position: relative;
+  flex-direction: row;
   display: flex;
   justify-content: space-evenly;
 }
@@ -292,6 +294,27 @@ p {
 .wrap > img {
   width: 33%;
   margin: auto;
+}
+
+#lightbox {
+  position: fixed; /* keeps the lightbox window in the current viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(34, 34, 34, 0.95);
+  text-align: center;
+}
+#lightbox p {
+  text-align: right;
+  color: #fafafa;
+  margin-right: 1em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#lightbox img {
+  box-shadow: 0 0 25px #111111;
+  max-width: 60%;
 }
 
 footer {
