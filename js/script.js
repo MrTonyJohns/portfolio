@@ -57,14 +57,24 @@ $(function () {
   });
 })();
 
-// $("img").on("click", function () {
-//   $("#image-one").animate(
-//     {
-//       opacity: 0.5,
-//     },
-//     1500
-//   );
-// });
+$(function () {
+  $("#dialog").dialog({
+    autoOpen: false,
+    show: {
+      effect: "blind",
+      duration: 1000,
+    },
+    hide: {
+      effect: "blind",
+      duration: 500,
+    },
+  });
+
+  $("#open").on("click", function () {
+    $("#dialog").dialog("open");
+  });
+});
+
 $(document).ready(function ($) {
   $(".lightbox-trigger").click(function (e) {
     //prevent default action (hyperlink)
